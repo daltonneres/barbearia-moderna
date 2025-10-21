@@ -1,54 +1,725 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Barbearia Moderna</title>
-  <meta name="description" content="Website profissional para barbearias, com agendamento online e integração com WhatsApp.">
-  <link rel="icon" href="favicon-barbearia.ico" type="image/x-icon">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!-- Cabeçalho -->
-  <header class="header">
-    <div class="container">
-      <h1>Barbearia Moderna</h1>
-      <nav>
-        <ul>
-          <li><a href="#">Início</a></li>
-          <li><a href="#">Serviços</a></li>
-          <li><a href="#">Galeria</a></li>
-          <li><a href="#">Agendamento</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Barbearia Maestro</title>
+    <meta
+      name="description"
+      content="Estilo, precisão e atitude. Cada corte é uma obra de arte — Barbearia Maestro."
+    />
+    <link rel="icon" href="barbearia.jpg">
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
 
-  <!-- Conteúdo principal -->
-  <main class="main">
-    <section class="projetos">
-      <div class="projeto-card">
-        <h3>Agendamento Online</h3>
-        <p>Marque seu horário de forma rápida e prática, direto pelo site.</p>
-        <a href="#" class="btn" target="_blank">Agendar</a>
-      </div>
-      <div class="projeto-card">
-        <h3>Galeria de Cortes</h3>
-        <p>Confira nossos estilos e inspirações para o seu próximo corte.</p>
-        <a href="#" class="btn" target="_blank">Ver Galeria</a>
+    <!-- Cabeçalho -->
+<header class="header">
+  <div class="container">
+    <h1>Barbearia Maestro</h1>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Início</a></li>
+        <li><a href="#sobre">Quem Somos</a></li>
+        <li><a href="#equipe">Nossa Equipe</a></li>
+        <li><a href="#servicos">Serviços</a></li>
+        <li><a href="#combos">Planos & Combos</a></li>
+        <li><a href="#galeria">Galeria</a></li>
+        <li><a href="#feedbacks">Feedback's</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+
+<section id="inicio" class="hero">
+  <div class="hero-content">
+    <h2 id="frase-dinamica">Estilo, Precisão e Atitude</h2>
+    <p class="hero-desc">
+      Transformamos cada corte em uma experiência única, com cuidado, técnica e estilo. Venha viver o melhor da barbearia!
+    </p>
+    <a href="https://wa.me/5544999999999" target="_blank" class="btn">
+      Agende seu horário
+    </a>
+  </div>
+</section>
+
+    <!-- Quem Somos -->
+    <section id="sobre" class="sobre">
+      <div class="container">
+        <h2>Quem Somos</h2>
+        <p>
+          A Barbearia Maestro une tradição e modernidade em um ambiente que
+          respira estilo. Nosso time é formado por profissionais experientes,
+          apaixonados pelo que fazem e comprometidos com o visual perfeito de
+          cada cliente. Aqui, cada corte é tratado como uma verdadeira obra de
+          arte.
+        </p>
+        <p>
+          Mais do que um corte, oferecemos uma experiência completa — conforto,
+          boa conversa e cuidado em cada detalhe. Seja bem-vindo ao seu novo
+          ponto de confiança.
+        </p>
+        <img
+          src="corte.jpg"
+          alt="Equipe Barbearia Maestro"
+          title="Equipe Barbearia Maestro"
+          class="img-equipe"
+        />
       </div>
     </section>
-  </main>
 
-  <!-- Rodapé -->
-  <footer class="footer">
-    <p class="rodape-final">
-      Desenvolvido por
-      <a href="https://github.com/daltonneres" target="_blank">
-        Dalton Neres - Full Stack Developer
-      </a>
-      <br>Última atualização: 19/10/2025
+    <!-- Nossa Equipe -->
+    <section id="equipe" class="equipe">
+      <div class="container">
+        <h2>Nossa Equipe</h2>
+        <div class="cards">
+          <div class="card">
+            <img
+              src="corte.jpg"
+              alt="Barbeiro João Silva"
+              title="João Silva - Barbeiro Sênior"
+            />
+            <h3>João Silva</h3>
+            <p>Barbeiro Sênior</p>
+          </div>
+          <div class="card">
+            <img
+              src="corte.jpg"
+              alt="Barbeiro Lucas Martins"
+              title="Lucas Martins - Especialista em Cortes Modernos"
+            />
+            <h3>Lucas Martins</h3>
+            <p>Especialista em Cortes Modernos</p>
+          </div>
+          <div class="card">
+            <img
+              src="corte.jpg"
+              alt="Barbeiro Rafael Souza"
+              title="Rafael Souza - Estilo e Precisão"
+            />
+            <h3>Rafael Souza</h3>
+            <p>Estilo e Precisão</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Seção Convite / Ambiente -->
+<section id="convite" class="convite">
+  <div class="container">
+    <h2>Bem-vindo ao Seu Espaço de Estilo e Convivência</h2>
+    <p>
+      Se você gosta de um ambiente descontraído, cerveja gelada, aquela coquinha gelada pro pequeno, boas amizades e ainda sair com aquele tapa no visual, este é o seu lugar!
     </p>
-  </footer>
-</body>
+    <a href="https://wa.me/5544999999999" target="_blank" class="btn">Agendar Agora</a>
+  </div>
+</section>
+
+<!-- SEÇÃO SERVIÇOS (CARROSSEL COMPLETO) -->
+<section id="servicos" class="services-section">
+  <div class="container">
+    <h2 class="services-title">Serviços</h2>
+
+    <div class="carousel">
+      <div class="carousel-track">
+
+        <!-- BARBEARIA -->
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="corte.jpeg" alt="Corte" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Corte" class="service-hover-title">Corte — R$ 45</a>
+          </div>
+          <div class="service-details">
+            <h3>Corte</h3>
+            <p>Clássico ou moderno que valoriza seu estilo.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/corte-tesoura.jpeg" alt="Corte na Tesoura" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Corte%20na%20Tesoura" class="service-hover-title">Corte na Tesoura — R$ 50</a>
+          </div>
+          <div class="service-details">
+            <h3>Corte na Tesoura</h3>
+            <p>Detalhes refinados e acabamento profissional.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/corte-infantil.jpeg" alt="Corte Infantil" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Corte%20Infantil" class="service-hover-title">Corte Infantil — R$ 55</a>
+          </div>
+          <div class="service-details">
+            <h3>Corte Infantil</h3>
+            <p>Confortável e seguro para os pequenos.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/corte-afro.jpeg" alt="Corte Afro" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Corte%20Afro" class="service-hover-title">Corte Afro — R$ 55</a>
+          </div>
+          <div class="service-details">
+            <h3>Corte Afro</h3>
+            <p>Especializado em cortes afro, mantendo estilo e personalidade.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/barba-tradicional.jpeg" alt="Barba Tradicional" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Barba%20Tradicional" class="service-hover-title">Barba Tradicional — R$ 45</a>
+          </div>
+          <div class="service-details">
+            <h3>Barba Tradicional</h3>
+            <p>Alinhamento e cuidado clássico para sua barba.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/combo-tradicional.jpeg" alt="Combo Tradicional" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Combo%20Tradicional" class="service-hover-title">Combo Tradicional — R$ 80</a>
+          </div>
+          <div class="service-details">
+            <h3>Combo Tradicional</h3>
+            <p>Corte + Barba por um preço especial.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/barboterapia.jpeg" alt="Barbo Terapia" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Barbo%20Terapia" class="service-hover-title">Barbo Terapia — R$ 50</a>
+          </div>
+          <div class="service-details">
+            <h3>Barbo Terapia</h3>
+            <p>Ritual completo para barba e relaxamento profundo.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/pezinho-cabelo.jpeg" alt="Pezinho Cabelo" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Pezinho%20Cabelo" class="service-hover-title">Pezinho Cabelo — R$ 20</a>
+          </div>
+          <div class="service-details">
+            <h3>Pezinho Cabelo</h3>
+            <p>Acabamento infantil ou retoque de franja.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/pezinho-barba.jpeg" alt="Pezinho Barba" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Pezinho%20Barba" class="service-hover-title">Pezinho Barba — R$ 20</a>
+          </div>
+          <div class="service-details">
+            <h3>Pezinho Barba</h3>
+            <p>Finalização detalhada da barba.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/sobrancelha-pinça.jpeg" alt="Sobrancelha na Pinça" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Sobrancelha%20na%20Pinça" class="service-hover-title">Sobrancelha na Pinça — R$ 25</a>
+          </div>
+          <div class="service-details">
+            <h3>Sobrancelha na Pinça</h3>
+            <p>Precisão máxima para o seu design facial.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/limpeza-orelha-nariz.jpeg" alt="Limpeza Orelha & Nariz" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Limpeza%20Orelha%20e%20Nariz" class="service-hover-title">Limpeza Orelha & Nariz — R$ 45</a>
+          </div>
+          <div class="service-details">
+            <h3>Limpeza Orelha & Nariz</h3>
+            <p>Higiene completa para o cuidado diário.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/freestyle.jpeg" alt="Freestyle" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Freestyle" class="service-hover-title">Freestyle (Desenho) — R$ 20</a>
+          </div>
+          <div class="service-details">
+            <h3>Freestyle</h3>
+            <p>Desenhos e cortes criativos personalizados.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/barba-designer.jpeg" alt="Barba Designer" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Barba%20Designer" class="service-hover-title">Barba Designer — R$ 60</a>
+          </div>
+          <div class="service-details">
+            <h3>Barba Designer</h3>
+            <p>Estilo exclusivo e alinhamento profissional.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/corte-barba.jpeg" alt="Corte + Barba" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Corte%20+%20Barba" class="service-hover-title">Corte + Barba — R$ 85</a>
+          </div>
+          <div class="service-details">
+            <h3>Corte + Barba</h3>
+            <p>Combo completo para cabelo e barba.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/combo-vip.jpeg" alt="Combo VIP" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Combo%20VIP" class="service-hover-title">Combo VIP (Corte + Barba + Sobrancelha) — R$ 100</a>
+          </div>
+          <div class="service-details">
+            <h3>Combo VIP</h3>
+            <p>Todos os serviços essenciais em um só pacote.</p>
+          </div>
+        </div>
+
+        <!-- COLORAÇÃO E QUÍMICA -->
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/descoloracao.jpeg" alt="Descoloração" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Descoloração" class="service-hover-title">Descoloração</a>
+          </div>
+          <div class="service-details">
+            <h3>Descoloração</h3>
+            <p>Valores sob consulta. Cabelos claros e luminosos.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/mecha.jpeg" alt="Mecha" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Mecha" class="service-hover-title">Mecha (uma)</a>
+          </div>
+          <div class="service-details">
+            <h3>Mecha</h3>
+            <p>Detalhe perfeito para iluminar seu cabelo.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/platinado.jpeg" alt="Platinado" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Platinado" class="service-hover-title">Platinado</a>
+          </div>
+          <div class="service-details">
+            <h3>Platinado</h3>
+            <p>Para quem deseja fios claros e elegantes.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/aplicacao-produtos.jpeg" alt="Aplicação de Produtos" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Aplicação%20de%20Produtos" class="service-hover-title">Aplicação de Produtos</a>
+          </div>
+          <div class="service-details">
+            <h3>Aplicação de Produtos</h3>
+            <p>Tratamentos profissionais para cabelos saudáveis.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/alinhamento-fios.jpeg" alt="Alinhamento Capilar" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Alinhamento%20Capilar" class="service-hover-title">Alinhamento Capilar</a>
+          </div>
+          <div class="service-details">
+            <h3>Alinhamento Capilar</h3>
+            <p>Fios mais leves, alinhados e com brilho natural.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/escova-organica.jpeg" alt="Escova Orgânica" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Escova%20Orgânica" class="service-hover-title">Escova Orgânica</a>
+          </div>
+          <div class="service-details">
+            <h3>Escova Orgânica</h3>
+            <p>Alisamento suave com produtos naturais.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/progressiva.jpeg" alt="Progressiva" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Progressiva" class="service-hover-title">Progressiva</a>
+          </div>
+          <div class="service-details">
+            <h3>Progressiva</h3>
+            <p>Alisamento intenso e duradouro.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/matizacao.jpeg" alt="Matização" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Matização" class="service-hover-title">Matização</a>
+          </div>
+          <div class="service-details">
+            <h3>Matização</h3>
+            <p>Realce do tom e neutralização de cores indesejadas.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/tonificacao.jpeg" alt="Tonificação" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Tonificação" class="service-hover-title">Tonificação</a>
+          </div>
+          <div class="service-details">
+            <h3>Tonificação</h3>
+            <p>Para equilibrar e intensificar a cor do cabelo.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/botox-capilar.jpeg" alt="Botox Capilar" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Botox%20Capilar" class="service-hover-title">Botox Capilar</a>
+          </div>
+          <div class="service-details">
+            <h3>Botox Capilar</h3>
+            <p>Rejuvenescimento dos fios e redução de frizz.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/alisamento.jpeg" alt="Alisamento" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Alisamento" class="service-hover-title">Alisamento</a>
+          </div>
+          <div class="service-details">
+            <h3>Alisamento</h3>
+            <p>Alinhamento intenso para todos os tipos de cabelo.</p>
+          </div>
+        </div>
+
+        <!-- TRATAMENTOS -->
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/penteado.jpeg" alt="Penteado" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Penteado" class="service-hover-title">Penteado</a>
+          </div>
+          <div class="service-details">
+            <h3>Penteado</h3>
+            <p>Estilos para todas as ocasiões, valorizando seu visual.</p>
+          </div>
+        </div>
+
+        <div class="service-card">
+          <div class="service-image-container">
+            <img src="/uploads/servicos/escova.jpeg" alt="Escova" class="service-image">
+            <a href="https://wa.me/5544999999999?text=Tenho%20interesse%20em%20Escova" class="service-hover-title">Escova</a>
+          </div>
+          <div class="service-details">
+            <h3>Escova</h3>
+            <p>Alinhamento e acabamento profissional para seus fios.</p>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Pontos do carrossel -->
+      <div class="carousel-navigation">
+        <div class="carousel-dots"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<style>
+/* CARROSSEL SERVIÇOS */
+.services-section { background: #000; color: #fff; padding: 60px 0; }
+.services-title { text-align: center; margin-bottom: 40px; font-size: 36px; }
+
+.carousel { position: relative; overflow: hidden; }
+.carousel-track { display: flex; gap: 20px; transition: transform 0.5s ease; }
+.service-card { background: #000; border-radius: 10px; padding: 20px; min-width: 280px; flex-shrink: 0; }
+.service-image-container { position: relative; }
+.service-image { width: 100%; border-radius: 10px; }
+.service-hover-title { position: absolute; bottom: 10px; left: 10px; background: #ffc107; color: #000; padding: 5px 10px; border-radius: 5px; text-decoration: none; font-weight: 600; }
+.service-details { margin-top: 15px; }
+.service-details h3 { font-size: 20px; margin-bottom: 5px; }
+.service-details p { font-size: 14px; line-height: 1.4; }
+</style>
+
+<script>
+// Carrossel automático
+const track = document.querySelector('.carousel-track');
+let index = 0;
+const total = document.querySelectorAll('.service-card').length;
+const slideWidth = document.querySelector('.service-card').offsetWidth + 20; // gap
+
+function slideCarousel() {
+  index++;
+  if (index >= total) index = 0;
+  track.style.transform = `translateX(-${index * slideWidth}px)`;
+}
+
+setInterval(slideCarousel, 3500); // muda a cada 3.5 segundos
+</script>
+
+<!-- PLANOS / COMBOS -->
+<section id="combos" class="combos">
+  <div class="container">
+    <h2>Planos Smart</h2>
+    <p>De segunda a quinta</p>
+
+    <div class="planos-grid">
+      <div class="plano-card">
+        <h3>Corte ilimitado</h3>
+        <p class="preco">R$ 99,90<span>/mês</span></p>
+        <ul>
+          <li>✔ Corte quantas vezes quiser</li>
+          <li>✔ 10% de desconto em produtos</li>
+          <li>✔ 10% de desconto em serviços extras</li>
+          <li>✔ Válido de segunda a quinta</li>
+          <li>✔ Descontos em empresas parceiras</li>
+          <li class="indisponivel">✘ Serviço de barba</li>
+        </ul>
+        <a href="https://wa.me/5544999999999?text=Quero%20assinar%20o%20Plano%20Smart%20Corte%20ilimitado!" target="_blank" class="btn">Assinar Agora</a>
+      </div>
+
+      <div class="plano-card destaque">
+        <div class="etiqueta">Mais Popular</div>
+        <h3>Cabelo e Barba ilimitado</h3>
+        <p class="preco">R$ 149,90<span>/mês</span></p>
+        <ul>
+          <li>✔ Corte quantas vezes quiser</li>
+          <li>✔ Faça a barba quantas vezes quiser</li>
+          <li>✔ 10% de desconto em produtos</li>
+          <li>✔ 10% de desconto em serviços extras</li>
+          <li>✔ Válido de segunda a quinta</li>
+          <li>✔ Descontos em empresas parceiras</li>
+        </ul>
+        <a href="https://wa.me/5544999999999?text=Quero%20assinar%20o%20Plano%20Smart%20Cabelo%20e%20Barba!" target="_blank" class="btn">Assinar Agora</a>
+      </div>
+
+      <div class="plano-card">
+        <h3>Barba ilimitado</h3>
+        <p class="preco">R$ 99,90<span>/mês</span></p>
+        <ul>
+          <li>✔ Faça a barba quantas vezes quiser</li>
+          <li>✔ 10% de desconto em produtos</li>
+          <li>✔ 10% de desconto em serviços extras</li>
+          <li>✔ Válido de segunda a quinta</li>
+          <li>✔ Descontos em empresas parceiras</li>
+          <li class="indisponivel">✘ Corte de cabelo</li>
+        </ul>
+        <a href="https://wa.me/5544999999999?text=Quero%20assinar%20o%20Plano%20Smart%20Barba%20ilimitado!" target="_blank" class="btn">Assinar Agora</a>
+      </div>
+    </div>
+
+    <h2 style="margin-top: 60px;">Planos Black</h2>
+    <p>De segunda a sábado</p>
+
+    <div class="planos-grid">
+      <div class="plano-card dark">
+        <h3>Corte ilimitado</h3>
+        <p class="preco">R$ 134,90<span>/mês</span></p>
+        <ul>
+          <li>✔ Corte quantas vezes quiser</li>
+          <li>✔ 10% de desconto em produtos</li>
+          <li>✔ 20% de desconto em serviços extras</li>
+          <li>✔ 20% de desconto em bebidas</li>
+          <li>✔ Válido de segunda a sábado</li>
+          <li>✔ Descontos em empresas parceiras</li>
+          <li class="indisponivel">✘ Serviço de barba</li>
+        </ul>
+        <a href="https://wa.me/5544999999999?text=Quero%20assinar%20o%20Plano%20Black%20Corte!" target="_blank" class="btn-dark">Assinar Agora</a>
+      </div>
+
+      <div class="plano-card dark destaque">
+        <div class="etiqueta">Mais Popular</div>
+        <h3>Cabelo e Barba ilimitado</h3>
+        <p class="preco">R$ 199,90<span>/mês</span></p>
+        <ul>
+          <li>✔ Corte quantas vezes quiser</li>
+          <li>✔ Faça a barba quantas vezes quiser</li>
+          <li>✔ 10% de desconto em produtos</li>
+          <li>✔ 20% de desconto em serviços extras</li>
+          <li>✔ 20% de desconto em bebidas</li>
+          <li>✔ Válido de segunda a sábado</li>
+          <li>✔ Descontos em empresas parceiras</li>
+        </ul>
+        <a href="https://wa.me/5544999999999?text=Quero%20assinar%20o%20Plano%20Black%20Cabelo%20e%20Barba!" target="_blank" class="btn-dark">Assinar Agora</a>
+      </div>
+
+      <div class="plano-card dark">
+        <h3>Barba ilimitado</h3>
+        <p class="preco">R$ 124,90<span>/mês</span></p>
+        <ul>
+          <li>✔ Faça a barba quantas vezes quiser</li>
+          <li>✔ 10% de desconto em produtos</li>
+          <li>✔ 20% de desconto em serviços extras</li>
+          <li>✔ 20% de desconto em bebidas</li>
+          <li>✔ Válido de segunda a sábado</li>
+          <li>✔ Descontos em empresas parceiras</li>
+          <li class="indisponivel">✘ Corte de cabelo</li>
+        </ul>
+        <a href="https://wa.me/5544999999999?text=Quero%20assinar%20o%20Plano%20Black%20Barba!" target="_blank" class="btn-dark">Assinar Agora</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Galeria de Cortes -->
+<section id="galeria" class="clientes">
+  <div class="container">
+    <h2>Galeria de Cortes</h2>
+    <div class="galeria-clientes">
+      <div class="fotos-clientes" id="fotos-clientes">
+        <img src="corte.jpg" alt="Corte 1" title="Corte 1" />
+        <img src="corte.jpg" alt="Corte 2" title="Corte 2" />
+        <img src="corte.jpg" alt="Corte 3" title="Corte 3" />
+        <img src="corte.jpg" alt="Corte 4" title="Corte 4" />
+        <img src="corte.jpg" alt="Corte 5" title="Corte 5" />
+        <img src="corte.jpg" alt="Corte 1" title="Corte 6" />
+        <img src="corte.jpg" alt="Corte 2" title="Corte 7" />
+        <img src="corte.jpg" alt="Corte 3" title="Corte 8" />
+        <img src="corte.jpg" alt="Corte 4" title="Corte 9" />
+        <img src="corte.jpg" alt="Corte 5" title="Corte 10" />
+        <img src="corte.jpg" alt="Corte 1" title="Corte 11" />
+        <img src="corte.jpg" alt="Corte 2" title="Corte 12" />
+        <img src="corte.jpg" alt="Corte 3" title="Corte 13" />
+        <img src="corte.jpg" alt="Corte 4" title="Corte 14" />
+        <img src="corte.jpg" alt="Corte 5" title="Corte 15" />
+        <img src="corte.jpg" alt="Corte 1" title="Corte 16" />
+        <img src="corte.jpg" alt="Corte 2" title="Corte 17" />
+        <img src="corte.jpg" alt="Corte 3" title="Corte 18" />
+        <img src="corte.jpg" alt="Corte 4" title="Corte 19" />
+        <img src="corte.jpg" alt="Corte 5" title="Corte 20" />
+      </div>
+    </div>
+  </div>
+</section>
+
+    <!-- Feedbacks -->
+<section id="feedbacks" class="feedbacks">
+  <div class="container">
+    <h2>O Que Nossos Clientes Dizem</h2>
+    <div class="cards feedback-cards">
+
+      <div class="card feedback-card">
+        <p>“Melhor barbearia da região! Atendimento top e corte impecável.”</p>
+        <h4>— Gustavo M.</h4>
+      </div>
+
+      <div class="card feedback-card">
+        <p>“Ambiente moderno, barbeiros super profissionais. Saí renovado!”</p>
+        <h4>— Thiago R.</h4>
+      </div>
+
+      <div class="card feedback-card">
+        <p>“Excelente atendimento! Me senti em casa e o resultado foi perfeito.”</p>
+        <h4>— Leonardo P.</h4>
+      </div>
+
+      <div class="card feedback-card">
+        <p>“A barbearia mais estilosa da cidade. Cada corte é realmente uma obra de arte.”</p>
+        <h4>— Ricardo T.</h4>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+    <!-- Contato -->
+    <section id="contato" class="contato">
+      <div class="container">
+        <h2>Fale Conosco</h2>
+        <form id="formContato">
+          <input type="text" id="nome" placeholder="Nome completo" required />
+          <input type="tel" id="telefone" placeholder="Celular" required />
+          <input type="email" id="email" placeholder="E-mail" required />
+          <textarea id="mensagem" placeholder="Mensagem" required></textarea>
+          <button type="submit" class="btn">Enviar</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- Rodapé -->
+    <footer class="footer">
+      <div class="footer-container">
+        <!-- Coluna 1 -->
+        <div class="footer-col">
+          <h3>Barbearia Maestro</h3>
+          <p>
+            Tradição, precisão e estilo em cada detalhe. Na Barbearia Maestro,
+            cada corte é uma obra de arte criada com técnica e atitude.
+          </p>
+        </div>
+
+        <!-- Coluna 2 -->
+        <div class="footer-col">
+          <h3>Institucional</h3>
+          <ul>
+            <li><a href="#sobre">Quem Somos</a></li>
+            <li><a href="#equipe">Nossa Equipe</a></li>
+            <li><a href="#servicos">Serviços</a></li>
+            <li><a href="#valores">Tabela de Preços</a></li>
+            <li><a href="#galeria">Galeria de Cortes</a></li>
+          </ul>
+        </div>
+
+        <!-- Coluna 3 -->
+<div class="footer-col">
+  <h3>Atendimento</h3>
+  <ul>
+    <li><a href="#contato">Fale Conosco</a></li>
+    <li><a href="https://www.google.com/maps?q=Rua+dos+Barbeiros,+123,+Salto+do+Lontra,+PR" target="_blank">Localização</a></li>
+    <li><a href="#" onclick="mostrarEmail()">E-mail</a></li>
+    <li><strong>Horário:</strong> Seg-Sex: 9h às 20h | Sáb: 9h às 18h</li>
+  </ul>
+</div>
+
+        <!-- Coluna 4 -->
+        <div class="footer-col">
+          <h3>Siga-nos</h3>
+          <div class="social-icons">
+            <a
+              href="https://wa.me/5544999999999"
+              target="_blank"
+              class="btn-whatsapp"
+              >WhatsApp</a
+            >
+            <a href="#" target="_blank" class="btn-instagram">Instagram</a>
+            <a href="#" target="_blank" class="btn-tiktok">TikTok</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2025 Barbearia Maestro - Todos os direitos reservados.</p>
+        <p>
+          Desenvolvido por
+          <a href="https://github.com/daltonneres" target="_blank">
+            Dalton Neres - Full Stack Developer
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
 </html>
